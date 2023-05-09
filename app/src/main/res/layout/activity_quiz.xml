@@ -9,13 +9,15 @@
 
     <ImageView
         android:id="@+id/imagem"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="120dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/aaa" />
+        app:srcCompat="@drawable/flag_00" />
 
     <TextView
         android:id="@+id/txt_pergunta"
